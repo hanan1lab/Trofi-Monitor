@@ -25,14 +25,6 @@ fun AddClubScreen(onClubAdded: (Club) -> Unit = {}) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(
-            text = "Nama: Hanan Labib",
-            style = MaterialTheme.typography.titleLarge
-        )
-        Text(
-            text = "NIM: 234311041",
-            style = MaterialTheme.typography.titleLarge
-        )
 
         Spacer(modifier = Modifier.height(16.dp))
 
